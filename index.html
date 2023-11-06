@@ -4,9 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Jennifer Piril] - WDD 230 - Web Frontend Development</title>
+    <title>Jennifer Piril - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development, Jennifer Piril Galvez, My course home page">
     <meta name="author" content="Jennifer Piril Galvez">
+
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -27,7 +35,11 @@
         <section class="card">
             <h3>Learning Activities</h3>
             <ul>
-                <li><a href="#">Activity 1</a></li>
+                <li><a href="#">Learning activity</a></li>
+                <li><a href="#">Learning activity</a></li>
+                <li><a href="#">Learning activity</a></li>
+                <li><a href="#">Learning activity</a></li>
+                <li><a href="#">Learning activity</a></li>
             </ul>
         </section>
         <section class="card">
@@ -37,9 +49,11 @@
         </section>
     </main>
     <footer>
-        <p> &copy; <span id="CurrentYear"></span> Jennifer Piril Guatemala City</p>
-        <p id="lastModified"></p>
+        <p> &copy; <span id="currentYear"></span> Jennifer Piril Guatemala City</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
     </footer>
+
+    <script src="scripts/getDates.js"></script>
 
 </body>
 
