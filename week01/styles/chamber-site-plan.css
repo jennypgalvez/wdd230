@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  color: #d8dbe2;
+}
 nav {
   background-color: #58a4b0;
 }
@@ -12,7 +16,7 @@ nav ul {
 
 nav a {
   display: block;
-  color: #d8dbe2;
+  color: black;
   text-align: center;
   padding: 0.5rem;
   text-decoration: none;
@@ -66,4 +70,5 @@ footer {
   background-color: #373f51;
   text-align: center;
   padding: 1rem;
+  color: #d8dbe2;
 }
