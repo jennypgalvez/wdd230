@@ -6,4 +6,10 @@
   main h2 {
     grid-column: 1 / span 2;
   }
+  #menu {
+    display: none;
+  }
+  .navigation li {
+    display: block;
+  }
 }
