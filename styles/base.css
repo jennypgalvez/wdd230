@@ -17,7 +17,8 @@ header {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
+  color: white;
 }
 
 nav {
@@ -77,4 +78,5 @@ footer {
   background-color: #5e548e;
   text-align: center;
   padding: 1rem;
+  color: white;
 }
