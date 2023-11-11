@@ -76,6 +76,15 @@ li {
   text-align: left;
 }
 
+#mode {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
 footer {
   background-color: #2e6171;
   text-align: center;
