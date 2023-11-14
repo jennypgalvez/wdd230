@@ -5,4 +5,15 @@
   .navigation li {
     display: block;
   }
+  .ads {
+    display: flex;
+    flex: 1;
+    margin: 0;
+  }
+  .company {
+    width: 80%;
+  }
+  .weather {
+    height: 30vh;
+  }
 }
