@@ -20,16 +20,148 @@
         content="https://raw.githubusercontent.com/jennypgalvez/wdd230/main/chamber/images/guatemala-city.jpg">
     <meta property="og:url" content="https://jennypgalvez.github.io/wdd230/chamber/index.html">
 
+    <!--Css files-->
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+    <!--Typography-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <!--Header-->
+    <header>
+        <h1>Guatemala City Chamber of Commerce</h1>
+    </header>
 
-    <header></header>
+    <!--Navigation bar-->
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Chamber</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
 
-    <nav></nav>
+    <!--Hero Image-->
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Guatemala City Chamber of Commerce</h1>
+            <a href="#" class="btn"> Join Now</a>
+        </div>
+    </section>
 
-    <footer></footer>
+    <!--Main Area-->
+    <main>
+        <!--Current event(s) Section-->
+        <section>
+            <!--section left box-->
+            <div class="leftBox">
+                <div class="content">
+                    <h1>Current Events</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Ipsam, at eaque. Odio unde aperiam animi possimus cumque commodi cupiditate
+                        assumenda similique corrupti ea!</p>
+                </div>
+            </div>
+            <!--events-->
+            <div class="events">
+                <ul>
+                    <!--Event1-->
+                    <li>
+                        <div class="time">
+                            <h2>24<br><span>June</span></h2>
+                        </div>
+                        <div class="details">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <a href="#">View Details</a>
+                        </div>
+                    </li>
+                    <!--Event2-->
+                    <li>
+                        <div class="time">
+                            <h2>24<br><span>June</span></h2>
+                        </div>
+                        <div class="details">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <a href="#">View Details</a>
+                        </div>
+                    </li>
+                    <!--Event3-->
+                    <li>
+                        <div class="time">
+                            <h2>24<br><span>June</span></h2>
+                        </div>
+                        <div class="details">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <a href="#">View Details</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!--weather card section-->
+        <section class="weather">
+            <div class="weather-card">
+                <div class="content">
+                    <h2>Weather</h2>
+                    <p>Humidity: </p>
+                    <p>Wind:</p>
+                    <p>Partly Cloudy</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Company 'spotlights' advertisements-->
+        <section class="ads">
+            <!--Company1-->
+            <div class="company">
+                <h2>Company 1</h2>
+                <ul>
+                    <p>Company2@gmail.com</p>
+                    <p>+000 000 000 </p>
+                    <p>website</p>
+                </ul>
+            </div>
+            <!--Company2-->
+            <div class="company">
+                <h2>Company 2</h2>
+                <ul>
+                    <p>Company2@gmail.com</p>
+                    <p>+000 000 000 </p>
+                    <p>website</p>
+                </ul>
+            </div>
+            <!--Company3-->
+            <div class="company">
+                <h2>Company 3</h2>
+                <ul>
+                    <p>Company2@gmail.com</p>
+                    <p>+000 000 000 </p>
+                    <p>website</p>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p> &copy; <span id="currentYear"></span> Jennifer Piril Galvez WDD230 Proyect</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <!--javaScript Codes-->
+    <script src="scripts/last-modified.js"></script>
 </body>
 
 </html>
