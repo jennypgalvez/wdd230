@@ -11,4 +11,16 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
   }
+
+  .herolabel p {
+    margin: 0;
+    padding: 0.25rem;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .herolabel {
+    top: 30px;
+    left: 10px;
+    padding: 1.5rem;
+  }
 }
