@@ -129,6 +129,7 @@ footer {
 .hero {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }
 
 .hero img {
@@ -138,7 +139,7 @@ footer {
 
 .herolabel {
   position: absolute;
-  top: 10px;
+  top: 20px;
   background: radial-gradient(#fff, #2e6171);
   border: 1px solid rgba(0, 0, 0, 0.75);
   padding: 1rem;
