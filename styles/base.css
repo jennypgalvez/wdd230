@@ -151,7 +151,7 @@ footer {
   font-size: 1rem;
 }
 
-map {
-  align-items: center;
+iframe {
   width: 100%;
+  padding: 1rem;
 }
