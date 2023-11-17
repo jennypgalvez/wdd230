@@ -12,7 +12,7 @@
     <meta property="og:title" content="Jennifer Piril - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:image"
-        content="https://raw.githubusercontent.com/jennypgalvez/wdd230/main/images/guatemala-city.jpg">
+        content="https://raw.githubusercontent.com/jennypgalvez/wdd230/main/images/guatemala-city.webp">
     <meta property="og:url" content="https://jennypgalvez.github.io/wdd230/">
 
     <!--Css files-->
@@ -31,7 +31,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Jennifer Piril" width="75" height="100">
+        <img src="images/profile.webp" alt="Jennifer Piril" width="75" height="100">
         <h1> Jennifer Piril</h1>
     </header>
 
@@ -52,41 +52,70 @@
     </div>
 
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card">
-            <h3>Learning Activities</h3>
-            <ul>
-                <!--Week1-->
-                <li>Week01<a href="#">Week01</a></li>
-                <!--week2-->
-                <li>Week02
-                    <a href="week02/design.html"> Design Principles/ </a>
-                    <a href="https://codepen.io/jennypgalvez/pen/NWojRKd"> "Hamburger" Menu/ </a>
-                    <a href="week02/bom.html"> DOM Manipulation </a>
-                </li>
-                <!--week3-->
-                <li>Week03
-                    <a href="week03/images/landscape.webp"> WebP/ </a>
-                    <a href="week03/lazyload.html"> Lazy Load/ </a>
-                    <a href="week03/responsive-images.html"> Responsive Images/ </a>
-                    <a href="week03/bom.html"> bom localStorage</a>
-                </li>
-                <!--week4-->
-                <li>Week04<a href="#">Week04</a></li>
-                <!--week5-->
-                <li>Week05<a href="#">Week05</a></li>
-            </ul>
+
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/temple-mobile.webp">
+                <source media="(max-width: 960px)" srcset="images/temple-larger.webp">
+                <img src="images/temple-largerview.webp" alt="Quetzaltenango Guatemala Temple" width="960" height="200">
+                <div class="herolabel">
+                    <p>Gautemala Temple</p>
+                </div>
+            </picture>
+
         </section>
-        <section class="card">
-            <h3>Information</h3>
-            <p>Weather: [Placeholder]</p>
-            <p>Visits: [Placeholder]</p>
+
+
+
+        <section class="entire-card">
+            <h2>WDD 230: Web Frontend Development</h2>
+            <div class="card">
+                <h3>Learning Activities</h3>
+                <ul>
+                    <!--Week1-->
+                    <li>Week01<a href="#">Week01</a></li>
+                    <!--week2-->
+                    <li>Week02
+                        <a href="week02/design.html"> Design Principles/ </a>
+                        <a href="https://codepen.io/jennypgalvez/pen/NWojRKd"> "Hamburger" Menu/ </a>
+                        <a href="week02/bom.html"> DOM Manipulation </a>
+                    </li>
+                    <!--week3-->
+                    <li>Week03
+                        <a href="week03/images/landscape.webp"> WebP/ </a>
+                        <a href="week03/lazyload.html"> Lazy Load/ </a>
+                        <a href="week03/responsive-images.html"> Responsive Images/ </a>
+                        <a href="week03/bom.html"> bom localStorage</a>
+                    </li>
+                    <!--week4-->
+                    <li>Week04<a href="#">Week04</a></li>
+                    <!--week5-->
+                    <li>Week05<a href="#">Week05</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Information</h3>
+                <p>Weather: [Placeholder]</p>
+                <p>Visits: [Placeholder]</p>
+            </div>
         </section>
     </main>
+
+    <!--Google Map-->
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61812.833133388114!2d-90.5494863832117!3d14.467336078491208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a61aa17e6b6f%3A0x4aa8725403bfe57b!2sVilla%20Canales!5e0!3m2!1sen!2sgt!4v1700180286179!5m2!1sen!2sgt"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--footer-->
     <footer>
         <p> &copy; <span id="currentYear"></span> Jennifer Piril Guatemala City</p>
         <p> Last Modified: <span id="lastModified"></span></p>
     </footer>
+
 
     <!--javaScript Codes-->
     <script src="scripts/getDates.js"></script>
