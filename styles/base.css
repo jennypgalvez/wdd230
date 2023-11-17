@@ -150,3 +150,8 @@ footer {
   margin: 0;
   font-size: 1rem;
 }
+
+map {
+  align-items: center;
+  width: 100%;
+}
