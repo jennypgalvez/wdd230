@@ -285,6 +285,7 @@ footer {
   display: block;
 }
 
+/*small view events */
 @media (max-width: 60rem) {
   section {
     height: 100%;
@@ -310,3 +311,63 @@ footer {
     padding: 0 20px 20px;
   }
 }
+
+/*-----------------------------------------discover.html---------------------------------------- */
+/*sidebar*/
+.main-part {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  height: auto;
+}
+
+.sidebar {
+  background-color: #a9bcd0;
+  align-items: center;
+  padding: 1rem;
+  height: auto;
+  width: 95%;
+}
+
+.body-part {
+  background-color: #d8dbe2;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+}
+
+.bar-content {
+  margin: 1rem;
+  border: 2px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.bar-content h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.bar-content p {
+  margin-top: 2rem;
+}
+
+/*Body Part*/
+
+picture img {
+  background-color: black;
+  animation: fade 8s;
+  width: 95%;
+  align-items: center;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Footer*/

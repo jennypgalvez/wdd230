@@ -16,4 +16,23 @@
   .weather {
     height: 30vh;
   }
+
+  /*-----------------------------------------discover.html---------------------------------------- */
+  .main-part {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .body-part {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*Hover*/
+  picture img:hover {
+    filter: contrast(50%);
+  }
 }
