@@ -54,11 +54,12 @@
                         pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
                         required></label>
                 <!--Page Rating-->
-                <label class="top">Page Rating</label>
-                <div id="rangevalue">1</div>
-                <input type="range" id="range" name="range" min="1" max="10" value="0" step="1" list="rangevalues">
+
+
+                <label class="top">Page Rating<input type="range" id="range" name="range" min="1" max="10" value="0"
+                        step="1" list="rangevalues"></label>
+
                 <datalist id="rangevalues">
-                    <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -70,6 +71,7 @@
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </datalist>
+                <div id="rangevalue">1</div>
             </fieldset>
             <input type="submit" value="Finish My Form" class="submitBtn">
         </form>
