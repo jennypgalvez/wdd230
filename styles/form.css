@@ -1,0 +1,84 @@
+:root {
+  --elements: rgb(114, 75, 122);
+  --back: #e2c2ff;
+  --dark: black;
+}
+
+/*----------FORM----------*/
+form fieldset {
+  margin: 2rem;
+  border: 1px solid var(--elements);
+  border-radius: 10px;
+  padding: 1rem 2%;
+}
+
+form legend {
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+}
+
+form label.top input {
+  display: block;
+  border: solid 1px var(--elements);
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: var(--dark);
+  width: 100%;
+  max-width: 25rem;
+  background-color: var(--back);
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: var(--back);
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 25rem;
+}
+
+/*----------RANGE----------*/
+input[type="range"] {
+  margin: 1rem;
+  padding: 0.5em;
+}
+
+#range {
+  width: 250px;
+  margin-bottom: 0;
+}
+
+#rangevalue {
+  font-size: 2rem;
+  color: var(--dark);
+  margin-left: 1rem;
+}
+
+#rangevalues {
+  display: flex;
+  margin: 0 0 0 25px;
+  width: 250px;
+}
+
+#rangevalues option {
+  flex: 1 1 auto;
+}
+
+form label.top input:required {
+  border-left: rgb(230, 140, 140) solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: rgb(140, 201, 122) solid 6px;
+}
+
+.recordMain h1 {
+  color: var(--dark);
+}

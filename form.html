@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Jennifer Piril Galvez, html form">
+    <meta name="author" content="Jennifer Piril Galvez">
+
+    <!--Css files-->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <img src="images/profile.webp" alt="Jennifer Piril" loading="lazy" width="75" height="100">
+        <h1> Jennifer Piril</h1>
+    </header>
+
+    <!--Navigation Bar-->
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form method="get" action="record.html">
+            <div id="message"></div>
+            <fieldset>
+                <legend>Information</legend>
+                <!--Username-->
+                <label class="top">Username* <input type="text" id="user" name="user" required></label>
+                <!--Password-->
+                <label class="top">Password* <input type="password" id="pass" name="pass" pattern="[a-zA-Z0-9]{8,}"
+                        title="Password must be at least eight (8) characters long and can only be alpha-numeric"
+                        required></label>
+                <!--Password Confirmation-->
+                <label class="top">Password Confirmation* <input type="password" id="passConfirmation"
+                        name="passConfirmation" pattern="[a-zA-Z0-9]{8,}"
+                        title="Password must be at least eight (8) characters long and can only be alpha-numeric"
+                        required></label>
+                <!--Email-->
+                <label class="top">Email* <input type="email" id="email" name="email"
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
+                        required></label>
+                <!--Page Rating-->
+                <label class="top">Page Rating</label>
+                <div id="rangevalue">1</div>
+                <input type="range" id="range" name="range" min="1" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Finish My Form" class="submitBtn">
+        </form>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <p> &copy; <span id="currentYear"></span> Jennifer Piril Guatemala City </p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <!--javaScript Code-->
+    <script src="scripts/script.js"></script>
+    <script src="scripts/password.js"></script>
+    <script src="scripts/rangevalue.js"></script>
+</body>
+
+</html>
