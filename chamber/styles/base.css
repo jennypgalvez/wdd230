@@ -7,6 +7,7 @@ body,
 html {
   height: 100%;
   font-family: "M PLUS Rounded 1c", sans-serif;
+  background: #d8dbe2;
 }
 /*Header*/
 header {
@@ -370,4 +371,80 @@ picture img {
   }
 }
 
-/*Footer*/
+/*-----------------------------------------join.html---------------------------------------- */
+/*FORM*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #373f51;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+}
+
+form label.top input,
+textarea {
+  display: block;
+  border: solid #373f51 1px;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 25rem;
+  background-color: #f5f5dc;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.benefitsList li {
+  margin-bottom: 8px;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #a9bcd0;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 25rem;
+}
+
+form label.top input:required {
+  border-left: rgb(230, 140, 140) solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: rgb(140, 201, 122) solid 6px;
+}
+
+.formTitle {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.recordMain,
+.recordMain h1 {
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
