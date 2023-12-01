@@ -1,0 +1,93 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"#",
+            "title":"Week01"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/design.html",
+            "title":"Design Principles"
+          },
+          {
+            "url":"https://codepen.io/jennypgalvez/pen/NWojRKd",
+            "title":"Hamburger Menu"
+          },
+          {
+            "url":"week02/bom.html",
+            "title":"DOM Manipulation"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"week03/images/landscape.webp",
+            "title":"WebP"
+          },
+          {
+            "url":"week03/lazyload.html",
+            "title":"Lazy Load"
+          },
+          {
+            "url":"week03/responsive-images.html",
+            "title":"Responsive Images"
+          },
+          {
+            "url":"week03/bom.html",
+            "title":"BOM localStorage"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/jennypgalvez/pen/eYxVZdv",
+            "title":"Pseudo-classes"
+          },
+          {
+            "url":"week04/images/combinators.png",
+            "title":"Combinator exercise"
+          },
+          {
+            "url":"week04/tablebuild.html",
+            "title":"HTML Table"
+          },
+          {
+            "url":"week04/index.html",
+            "title":"HTML forms"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/jennypgalvez/pen/ZEwjgya",
+            "title":"Pseudo-classes"
+          },
+          {
+            "url":"week05/new-ward-members.json",
+            "title":"json file"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"Fetch API"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Weather API"
+          }
+        ]
+      }
+    ]
+}      
