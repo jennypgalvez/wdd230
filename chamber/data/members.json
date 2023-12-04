@@ -1,0 +1,33 @@
+{
+    "companies":[
+        {
+            "name":"PRIMSA",
+            "address": "Palmas Street 11-95, Guatemala",
+            "phone": "79327575",
+            "website": "https://primsa.com.gt/",
+            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/307690606_495775439223887_458208208428345930_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=OuB80erAnF0AX_Qzf6P&_nc_ht=scontent.fgua2-2.fna&oh=00_AfAiis1g2f998_45UJxNJwbHctxWbd3BHCR6LfKof-bDmg&oe=657018B7",
+            "membership": "Gold membership",
+            "email": "primsa@gmail.com"
+        },
+        {
+            "name":"PC Market B&E",
+            "address": "3rd avenue 6-05 Zone 1, Guatemala",
+            "phone": "79431220",
+            "website": "https://pcmarket.com.gt",
+            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/301722119_385903767037957_2490008146386173701_n.png?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=CK7bU6H53BoAX-x1LRU&_nc_ht=scontent.fgua2-2.fna&oh=00_AfCMwbH-xyGq1S9fjmeuW9H3pEJJ6odJKAgxipvR3qaZNA&oe=65739A71",
+            "membership": "NP Membership",
+            "email": "primsa@gmail.com"
+        },
+        {
+            "name":"S.M CELLs",
+            "address": "3rd avenue 6-05 Zone 1, Guatemala",
+            "phone": "79431220",
+            "website": "https://pcmarket.com.gt",
+            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/354455977_1670295643383848_4311317876107763128_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Zl_xn5kfAFwAX-uOBL_&_nc_ht=scontent.fgua2-2.fna&oh=00_AfCz28mwa_WkHrD0kWwIlqsdsWPTS390x7eOAnzgxyM-Mw&oe=6573A507",
+            "membership": "NP Membership",
+            "email": "primsa@gmail.com"
+        }
+
+
+    ]
+}
