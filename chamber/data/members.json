@@ -16,17 +16,54 @@
             "website": "https://pcmarket.com.gt",
             "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/301722119_385903767037957_2490008146386173701_n.png?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=CK7bU6H53BoAX-x1LRU&_nc_ht=scontent.fgua2-2.fna&oh=00_AfCMwbH-xyGq1S9fjmeuW9H3pEJJ6odJKAgxipvR3qaZNA&oe=65739A71",
             "membership": "NP Membership",
-            "email": "primsa@gmail.com"
+            "email": "pcmarket@gmail.com"
         },
         {
-            "name":"S.M CELLs",
-            "address": "3rd avenue 6-05 Zone 1, Guatemala",
-            "phone": "79431220",
-            "website": "https://pcmarket.com.gt",
-            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/354455977_1670295643383848_4311317876107763128_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Zl_xn5kfAFwAX-uOBL_&_nc_ht=scontent.fgua2-2.fna&oh=00_AfCz28mwa_WkHrD0kWwIlqsdsWPTS390x7eOAnzgxyM-Mw&oe=6573A507",
-            "membership": "NP Membership",
-            "email": "primsa@gmail.com"
+            "name":"De Imeri",
+            "address": "6th Street 3-30 Gautemala",
+            "phone": "22060200",
+            "website": "https://deimeri.com",
+            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/324923204_906771387013594_6398508753539416720_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=ocQNICz4-6kAX9Gbk6A&_nc_ht=scontent.fgua2-2.fna&oh=00_AfCviFNk5vjpB5IVbr-N_Y4qDZGhradyb7Pj1moTjXeo5w&oe=6573DD16",
+            "membership": "Silver Membership",
+            "email": "info@deimeri.com"
+        },
+        {
+            "name":"Depro",
+            "address": "Big Plaza street, office #310, Guatemala",
+            "phone": "23009297",
+            "website": "https://deprosolar.com",
+            "image": "https://scontent.fgua2-1.fna.fbcdn.net/v/t39.30808-6/300378111_497602849035134_2062412726810701364_n.png?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Q7A6CqLdAlcAX_Dpioj&_nc_ht=scontent.fgua2-1.fna&oh=00_AfB_bgH-F10o36lL1WcRHZEqm3hzvSoERQFnpxPEdb1_kg&oe=65743607",
+            "membership": "Bronze Membership",
+            "email": "info@deprosolar.com"
+        },
+        {
+            "name":"BBDrinks",
+            "address": "Escuintla street south, 2-38 zone 3, Guatemala",
+            "phone": "58704365",
+            "website": "https://bbdrinks.com.gt",
+            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/299798976_444725981007058_4401569531032605258_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=UumDi1cfl7MAX9RNKt3&_nc_ht=scontent.fgua2-2.fna&oh=00_AfCdoEUIgH4d0iMZlafaSAWM5CbOU62lZt9modcoTwmSEw&oe=6574BE32",
+            "membership": "Gold Membership",
+            "email": "bbdrink@gmail.com"
+        },
+        {
+            "name":"DE JA VU",
+            "address": "Chipilapa Street 0-87 zone 2, Guatemala",
+            "phone": "57155100",
+            "website": "https://dejavu.com.gt",
+            "image": "https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/360078862_661511402669043_6513741488284569732_n.png?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=kEwoQ41BMc4AX-JIcnp&_nc_ht=scontent.fgua2-2.fna&oh=00_AfBJc_IHCtpMLiSOSaoLjkRlUTOWMtvC3_gb4lAespxQWQ&oe=6573BC50",
+            "membership": "Bronze Membership",
+            "email": "dejavu@gmail.com"
+        },
+        {
+            "name":"Igocharter Flight Destinations",
+            "address": "Roosevelth Street zone 7, Guatemala",
+            "phone": "22355636",
+            "website": "https://igocharter.com",
+            "image": "https://scontent.fgua2-1.fna.fbcdn.net/v/t39.30808-6/365562921_134324203051319_856729371803371698_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=SCGknbVVUGkAX8JEp4W&_nc_ht=scontent.fgua2-1.fna&oh=00_AfDGYrTfIXgpjfloUjyR7lpDrWVSJCajEy2i2cPuxsxPHw&oe=65740256",
+            "membership": "Silver Membership",
+            "email": "sells@igocharter.com"
         }
+
 
 
     ]

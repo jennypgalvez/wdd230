@@ -1,41 +1,39 @@
-document.addEventListener("DOMContentLoaded", function () {
-  fetch("data/members.json")
-    .then((response) => response.json())
-    .then((data) => displayMembers(data.members));
+const url = "https://jennypgalvez.github.io/wdd230/chamber/data/members.json";
+const membersDirectory = document.getElementById("membersDirectory");
 
-  // Function to display members in the specified view (grid or list)
-  function displayMembers(members) {
-    const memberDirectory = document.getElementById("memberDirectory");
+async function getMembersData() {
+  const response = await fetch(url);
+  const data = await response.json();
+  displayMembers(data.companies);
+}
 
-    // Toggle between grid and list view
-    const viewToggle = document.createElement("input");
-    viewToggle.type = "checkbox";
-    viewToggle.id = "viewToggle";
-    viewToggle.addEventListener("change", function () {
-      memberDirectory.classList.toggle("gridView", viewToggle.checked);
-      memberDirectory.classList.toggle("listView", !viewToggle.checked);
-    });
+function displayMembers(members) {
+  members.forEach((member) => {
+    let card = document.createElement("div");
+    card.className = "card";
 
-    // Label for the toggle
-    const toggleLabel = document.createElement("label");
-    toggleLabel.htmlFor = "viewToggle";
-    toggleLabel.textContent = "Grid View";
+    let image = document.createElement("img");
+    let name = document.createElement("h2");
+    let address = document.createElement("p");
+    let phone = document.createElement("p");
+    let website = document.createElement("a");
 
-    // Insert toggle elements before the member directory
-    document.body.insertBefore(toggleLabel, memberDirectory);
-    document.body.insertBefore(viewToggle, memberDirectory);
+    image.src = member.image;
+    image.alt = `Logo of ${member.name}`;
+    name.textContent = `${member.name}`;
+    address.textContent = `${member.address}`;
+    phone.textContent = ` ${member.phone}`;
+    website.textContent = ` ${member.website}`;
+    website.href = member.website;
 
-    // Display members based on the initial view
-    memberDirectory.innerHTML = members
-      .map((member) => {
-        return `<div class="memberCard">
-                        <img src="images/${member.image}" alt="${member.name}">
-                        <h3>${member.name}</h3>
-                        <p>${member.address}</p>
-                        <p>${member.phone}</p>
-                        <p><a href="${member.website}" target="_blank">${member.website}</a></p>
-                    </div>`;
-      })
-      .join("");
-  }
-});
+    card.appendChild(image);
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
+
+    membersDirectory.appendChild(card);
+  });
+}
+
+getMembersData();
