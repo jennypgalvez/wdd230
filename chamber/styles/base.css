@@ -116,9 +116,9 @@ section .leftBox .content p {
 
 section .events {
   position: relative;
-  width: 40%;
+  width: 35%;
   height: 100%;
-  background: #a9bcd0;
+  background: hsl(211, 29%, 74%);
   float: right;
 }
 
@@ -200,33 +200,17 @@ section .events ul li .details a:hover {
 }
 
 /*Weather card*/
-.weather {
-  width: 100%;
-  height: 40vh;
-  display: flex;
-}
 
-section .weather-card {
-  width: 100%;
-  float: left;
-  padding: 1rem;
-}
-
-section .weather-card .content {
-  background: #a9bcd0;
-  padding: 10px;
-  transition: 0.5s;
-}
-
-section .weather-card .content h2 {
-  font-size: 50px;
-}
-
-section .weather-card .content p {
-  margin: 10px 0 0;
-  padding: 0;
+.weather-card,
+.forecast {
   text-align: center;
-  font-size: 15px;
+  padding: 1rem;
+  margin: 1rem;
+  background: #a9bcd0;
+}
+
+.forecast ul {
+  list-style: none;
 }
 
 /*company advertisements*/
@@ -451,4 +435,48 @@ form label.top input:required:valid {
 
 .membershipLevel p {
   padding: 0.5rem;
+}
+/*-----------------------------------------directory.html---------------------------------------- */
+
+.directoryMenu {
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #a9bcd0;
+  text-align: center;
+}
+
+.directoryMenu button {
+  padding: 0.5rem;
+}
+
+.directorySection {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #eee;
+}
+
+.directoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 5px;
+  align-items: center;
+}
+
+.directoryGrid section {
+  text-align: center;
+}
+
+.directoryGrid img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #333;
+}
+
+.directoryGrid section > * {
+  margin: 0.1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
 }
