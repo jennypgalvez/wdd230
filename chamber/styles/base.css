@@ -230,6 +230,12 @@ section .events ul li .details a:hover {
   height: 100%;
 }
 
+.company h2 {
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
 /*Footer*/
 footer {
   background-color: #2e6171;
@@ -437,46 +443,3 @@ form label.top input:required:valid {
   padding: 0.5rem;
 }
 /*-----------------------------------------directory.html---------------------------------------- */
-
-.directoryMenu {
-  margin: 1rem auto;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  background-color: #a9bcd0;
-  text-align: center;
-}
-
-.directoryMenu button {
-  padding: 0.5rem;
-}
-
-.directorySection {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0.5rem;
-  background-color: #eee;
-}
-
-.directoryGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 5px;
-  align-items: center;
-}
-
-.directoryGrid section {
-  text-align: center;
-}
-
-.directoryGrid img {
-  border: 1px solid #fff;
-  box-shadow: 0 0 10px #333;
-}
-
-.directoryGrid section > * {
-  margin: 0.1rem;
-}
-
-.list {
-  display: flex;
-  flex-direction: column;
-}
