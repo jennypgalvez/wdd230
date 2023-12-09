@@ -199,8 +199,34 @@ section .events ul li .details a:hover {
   border-color: rgba(0, 0, 0, 0.8);
 }
 
-/*Weather card*/
+/*Banner */
+#chamberBanner {
+  display: none;
+  background-color: #a9bcd0;
+  padding: 15px;
+  text-align: center;
+  margin-top: 1rem;
+}
+#chamberBanner p {
+  margin: 10px;
+}
 
+/*Close button Banner */
+#closeBanner {
+  display: block;
+  width: 100px;
+  padding: 0.5rem;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 1em;
+  border-color: white;
+  border-radius: 10px;
+  background-color: #373f51;
+}
+
+/*Weather card*/
 .weather-card,
 .forecast {
   text-align: center;
