@@ -469,3 +469,62 @@ form label.top input:required:valid {
   padding: 0.5rem;
 }
 /*-----------------------------------------directory.html---------------------------------------- */
+#membersDirectory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 900px;
+}
+
+.directoryMenu {
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #58a4b0;
+  text-align: center;
+}
+
+.directoryMenu button {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.card {
+  width: calc(23% - 20px);
+  height: 100%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #a9bcd0;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card a {
+  color: navy;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+.directoryGrid {
+  height: 100%;
+}
